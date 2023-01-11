@@ -1,0 +1,21 @@
+
+.title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+  font-size: 28px;
+ line-height: 1.1785;
+ text-align: center;
+ letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+    @media screen and(min-width:1200px) {
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.1666;
+     text-align: center;
+     letter-spacing: 0.03em;;
+     margin-bottom: 50px;
+    }
+  }
+
+  

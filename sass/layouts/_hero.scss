@@ -1,0 +1,35 @@
+
+  .hero {
+    background-image: 
+      url(../images/fon.png);
+    background-color: var(--bcg-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    @media screen and(min-width:1200px) {
+      
+      max-width: 1600px;
+      padding-top: 200px;
+      padding-bottom: 200px;
+    
+    }
+  }
+  
+  .hero__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6153;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--light-color);
+    @media screen and (min-width:1200px) {
+      font-size: 44px;
+      line-height: 1.3636;
+    }
+  }

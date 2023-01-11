@@ -1,0 +1,27 @@
+// .header__container,
+.nav,
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.header {
+  border-bottom: 1px solid var(--header-border);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @media screen and(min-width:768px) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  @media screen and(min-width:1200px) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and(min-width:768px) {
+    justify-content: space-between;
+  }
+}

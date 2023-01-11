@@ -1,0 +1,16 @@
+.nav__logo {
+  display: flex;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.1666;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+    text-decoration: none;
+  }
+  .logo-style {
+    color: var(--logo-color);
+  }
+  .logo-style-footer {
+    color: var(--light-color);
+  }

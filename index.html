@@ -1,45 +1,36 @@
 <!DOCTYPE html>
 <html lang="uk">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css    "
-        />
-        <link rel="stylesheet" href="./css/styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css    "
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-<body>
-    <header class="header">
+      <header class="header">
         <div class="header__container container">
           <nav class="nav">
-            <a href="" class="nav__logo"
-              ><span class="logo-style"></span></a>
-            <ul class="nav-menu">
-              <li class="nav-menu__item item">
-                <a class="nav-menu__link nav-menu__link--current" href="./index.html">Про нас</a>
-              </li>
-              <li class="nav-menu__item item">
-                <a class="nav-menu__link" href=""> Партнери </a>
-              </li>
-              <li class="nav-menu__item item"><a class="nav-menu__link" href="">Клієнти</a></li>
-            </ul>
+            <img src="./images/logo.png" alt="Logo" width="240px" height="240px">
           </nav>
           <ul class="contacts-list">
             <li class="contacts-list__item item">
       
               <a class="contacts-list__link" href="mailto:info@devstudio.com"
                 >
-                <svg class="contacts-list__icon " wigth="24" height="24">
+                <svg class="contacts-list__icon " wigth="40" height="40">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
                 Instagram
@@ -49,97 +40,250 @@
             
               <a class="contacts-list__link" href="tel:+380961111111"
                 >
-                <svg class="contacts-list__icon" wigth="24" height="24">
+                <svg class="contacts-list__icon" wigth="40" height="40">
                   <use href="./images/symbol-defs.svg#icon-telegram"></use>
                 </svg>
-              Telegram </a
+              Telegram</a
               >
             </li>
           </ul>
-        </div>  
-    </header>
-    <section class="section hero">
-        <div class="container">
-         <button class="hero__button" type="button" data-modal-open>
-            <a class="catalog" href="">Перейти до каталогу</a>
-         </button>
-        </div>
-       </section>
-       <section>/
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-
-        /
-        /
-        /
-        /
-        /
-        /
-        /
-       </section>
-       <footer class="footer">
-        <div class="container footer-content">
-          
-          <address class="address">
-            <h1 class="name_company">ТОВ "ПОЛАНК-ПЛЮС"</h1>
-            <ul class="address-list">
-              <li class="item">
-                <span class="address-text">м. Одеса, вул. Генерала Цветаєва, 3/5</span>
-              </li>
-              <li class="item">
-                <a class="footer-contacts" href="mailto:polank@ukr.net"
-                  >polank@ukr.net
-                </a>
-              </li>
-              <li class="item">
-                <a class="footer-contacts" href="tel:+380671110303"
-                  >+38 067 111 03 03</a
-                >
-              </li>
-            </ul>
-            <h3 class="footer-list-name">ПРИЄДНУЙТЕСЬ</h3>
-            <ul class="team-group">
-             <li >
-               <a class="footer-link" href="">
-               <svg class="footer-icon" width="24" height="24">
-                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
-               </svg>
-             </a>
-             </li>
-             <li>
-               <a class="footer-link" href="">
-               <svg class="footer-icon" width="24" height="24">
-                 <use href="./images/symbol-defs.svg#icon-telegram"></use>
-               </svg>
-             </a>
-             </li>
-              </ul>
-          </address>
-        </div>
-        <div class="footer-list container"> 
-           
-        </div>
           
         </div>
-        </footer>  
+      </header>
+     <section class="section hero">
+     <div class="container">
+      <!-- <h1 class="hero__title">Ефективні рішення для </BR>вашого бізнесу</h1> -->
+      <button class="hero__button" type="button" data-modal-open>Перейти до каталогу</button>
+     </div>
+    </section>
+     <section class="section">
+     <div class="container">
+      <h2 class="title">Про компанію</h2>
+      <ul class="benefits">
+        <li class="item benefits__item">
+          <div class="benefits__icon">
+            <svg widht="70" height="70">
+            <use href="./images/icons.svg#icon-antenna--"></use>
+            </svg>
+          </div>  
+          <h3 class="benefits__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+          <p class="benefits__text">
+            Ідейні міркування, і навіть початок повсякденної роботи з формування
+            позиції.
+          </p>
+        </li>
+        <li class="item benefits__item">
+          <div class="benefits__icon">
+            <svg widht="70" height="70">
+              <use href="./images/icons.svg#icon-clock"></use>
+            </svg>
+          </div>
+          <h3 class="benefits__title">ПУНКТУАЛЬНІСТЬ</h3>
+          <p class="benefits__text">
+            Завдання організації, особливо рамки і місце навчання кадрів тягне у
+            себе.
+          </p>
+        </li>
+        <li class="item benefits__item">
+          <div class="benefits__icon">
+            <svg widht="70" height="70">
+              <use href="./images/icons.svg#icon-diagram"></use>
+            </svg>
+          </div>
+          <h3 class="benefits__title">ПЛАНУВАННЯ</h3>
+          <p class="benefits__text">
+            Так само консультація з широким активом значною мірою зумовлює.
+          </p>
+        </li>
+        <li class="item benefits__item">
+          
+          <div class="benefits__icon">
+            <svg  widht="70" height="70">
+              <use href="./images/icons.svg#icon-astronaut"></use>
+            </svg>
+          </div>
+          <h3 class="benefits__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+          <p class="benefits__text">
+            Значимість цих проблем настільки очевидна, що реалізація планових
+            завдань.
+          </p>
+        </li>
+      </ul>
+     </div>
+    </section>
+    <section class="about section">
+     <div class="container">
+      <h2 class="title">Наші переваги</h2>
+      <ul class="section-work">
+        <li class="item">
+          <img src="./images/q.jpg" alt="Приклад робіт 1" width="370" />
+          <div class="img-caption">Десктопні додатки</div>
+        </li>
+        <li class="item">
+          <img src="./images/w.jpg" alt="Приклад робіт 2" width="370" />
+          <div class="img-caption">Мобільні додатки</div>
+        </li>
+        <li class="item">
+          <img src="./images/e.jpg" alt="Приклад робіт 3" width="370" />
+          <div class="img-caption">Дизайнерські рішення</div>
+        </li>
+      </ul>
+    </div>
+    </section>
+    <section class="section team">
+     <div class="container">
+      
+        <h2 class="title">Наші партнери</h2>
+        <ul class="clients-list">
+          <li class="clients-item">
+            <a class="clients-link" href="">
+              <svg class="clients-icon" wigth="106" height="60">
+                <use href="./images/icons.svg#icon-logoone"></use>
+              </svg>
+            </a>
 
-</body>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link" href="">
+              <svg class="clients-icon" wigth="106" height="60">
+                <use href="./images/icons.svg#icon-logotwo" ></use>
+              </svg>
+            </a>
+
+          </li>
+          <li class="clients-item">
+            <a class="clients-link" href="">
+              <svg class="clients-icon" wigth="106" height="60">
+                <use href="./images/icons.svg#icon-logothree"></use>
+              </svg>
+            </a>
+
+          </li>
+          <li class="clients-item">
+            <a class="clients-link" href="">
+              <svg class="clients-icon" wigth="106" height="60">
+                <use href="./images/icons.svg#icon-logofour" ></use>
+              </svg>
+            </a>
+
+          </li>
+          <li class="clients-item">
+            <a class="clients-link" href="">
+              <svg class="clients-icon" wigth="106" height="60">
+                <use href="./images/icons.svg#icon-logofive" ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link" href="">
+              <svg class="clients-icon" wigth="106" height="60">
+                <use href="./images/icons.svg#icon-logosix" ></use>
+              </svg>
+            </a>
+
+          </li>
+        </ul>
+
+      </div>
+      <h2 class="title">Наші клієнти</h2>
+      <ul class="clients-list">
+        <li class="clients-item">
+          <a class="clients-link" href="">
+            <svg class="clients-icon" wigth="106" height="60">
+              <use href="./images/icons.svg#icon-logoone"></use>
+            </svg>
+          </a>
+
+        </li>
+        <li class="clients-item">
+          <a class="clients-link" href="">
+            <svg class="clients-icon" wigth="106" height="60">
+              <use href="./images/icons.svg#icon-logotwo" ></use>
+            </svg>
+          </a>
+
+        </li>
+        <li class="clients-item">
+          <a class="clients-link" href="">
+            <svg class="clients-icon" wigth="106" height="60">
+              <use href="./images/icons.svg#icon-logothree"></use>
+            </svg>
+          </a>
+
+        </li>
+        <li class="clients-item">
+          <a class="clients-link" href="">
+            <svg class="clients-icon" wigth="106" height="60">
+              <use href="./images/icons.svg#icon-logofour" ></use>
+            </svg>
+          </a>
+
+        </li>
+        <li class="clients-item">
+          <a class="clients-link" href="">
+            <svg class="clients-icon" wigth="106" height="60">
+              <use href="./images/icons.svg#icon-logofive" ></use>
+            </svg>
+          </a>
+        </li>
+        <li class="clients-item">
+          <a class="clients-link" href="">
+            <svg class="clients-icon" wigth="106" height="60">
+              <use href="./images/icons.svg#icon-logosix" ></use>
+            </svg>
+          </a>
+
+        </li>
+      </ul>
+
+    </div>
+      
+    </section>
+    <footer class="footer">
+    <div class="container footer-content">
+      <div>
+      <address class="address">
+        <ul class="address-list">
+          <li class="item">
+            <span class="address-text">м. Одеса, вул. Генерала Цветаєва, 3/5</span>
+          </li>
+          <li class="item">
+            <a class="footer-contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a class="footer-contacts" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-list"> <h3 class="footer-list-name">ПРИЄДНУЙТЕСЬ</h3>
+       <ul class="team-group">
+        <li class="footer-group" >
+          <a class="footer-link" href="">
+          <svg class="footer-icon" width="20" height="20">
+            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </a>
+        </li>
+        <li class="footer-group">
+          <a class="footer-link" href="">
+          <svg class="footer-icon" width="20" height="20">
+            <use href="./images/symbol-defs.svg#icon-telegram"></use>
+          </svg>
+        </a>
+        </li>
+        
+         </ul>
+    </div>
+    </div>
+    </footer>
+   
+    <script src="./JS/mobile-menu.js"></script>
+    <script src="./JS/modal.js"></script>
+  </body>
 </html>
+

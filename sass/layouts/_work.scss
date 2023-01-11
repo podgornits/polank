@@ -1,0 +1,27 @@
+.works .item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  .section-work .item {
+    position: relative;
+  }
+  .img-caption {
+    position: absolute;
+    padding: 27px 0px;
+    bottom: 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-color);
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  .about.section {
+    padding-top: 0;
+    display: none;
+    @media screen and(min-width:1200px) {
+      display: flex;;
+    }
+  }

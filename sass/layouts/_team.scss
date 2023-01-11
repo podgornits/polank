@@ -1,0 +1,99 @@
+
+.team-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .description {
+    padding: 30px 0px;
+  }
+  .section-team{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .work-description {
+    padding: 24px 20px;
+    border-left: 1px solid var(--card-border);
+    border-right: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
+  }
+  .team.section {
+    background-color: var(--bcg-button-color);
+  }
+  .section-team .item {
+    max-width: 100%;
+    background-color: var(--light-color);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    @media screen and(min-width:768px) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+    @media screen and(min-width:1200px) {
+      flex-basis: calc((100% - 90px) / 4);
+    }
+  }
+  .team-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .team-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  .link-networks {
+    display: flex;
+    color: rgba(175, 177, 184, 1);
+    border: 1px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: var(--accent-text-color);
+  }
+  }
+  
+  
+  
+  .team-icon {
+    fill: currentColor;
+    &:hover,
+  &:focus {
+    fill: currentColor;
+  }
+  }
+  
+
+  .team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--basic-text-color);
+  }
+  .team-post {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    margin-bottom: 16px;
+  }
+  .photo-team{
+    max-width: 100%;
+    height: auto;
+  }
