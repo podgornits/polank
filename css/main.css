@@ -33,7 +33,7 @@ li {
   font-family: "Roboto", sans-serif;
   background-color: rgba(28, 28, 28, 0);
   font-weight: 700;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 1.875;
   display: flex;
   text-align: center;
@@ -368,6 +368,7 @@ li {
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
+  border: 1px;
 }
 @media screen and (min-width: 1200px) {
   .section {
@@ -480,6 +481,18 @@ li {
   line-height: 1.7142;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+.price-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: circle;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.1666;
+  letter-spacing: 0.02em;
+  color: var(--polank-color);
 }
 
 .clients-list {
@@ -782,13 +795,13 @@ li {
 .hero__title {
   margin-top: 0;
   margin-bottom: 30px;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 26px;
   line-height: 1.6153;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--light-color);
+  text-transform: none;
+  color: var(--contacts-text-color);
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
@@ -882,10 +895,6 @@ li {
   border-left: 1px solid var(--card-border);
   border-right: 1px solid var(--card-border);
   border-bottom: 1px solid var(--card-border);
-}
-
-.team.section {
-  background-color: var(--bcg-button-color);
 }
 
 .section-team .item {
