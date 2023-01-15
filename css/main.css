@@ -484,6 +484,7 @@ li {
 }
 
 .price-position {
+  opacity: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1025,6 +1026,19 @@ body {
   --header-border: #ececec;
   --icon-color: #afb1b8;
   --polank-color: rgba(97, 36, 0);
+}
+
+.fon {
+  background-image: url(../images/muka.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+@media screen and (min-width: 1200px) {
+  .fon {
+    max-width: 1600px;
+  }
 }
 
 @media screen and (min-width: 768px) {
