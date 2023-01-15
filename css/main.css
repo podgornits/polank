@@ -426,16 +426,11 @@ li {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.1428;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--basic-text-color);
-}
-@media screen and (min-width: 768px) {
-  .benefits__title {
-    display: block;
-  }
+  color: var(--polank-color);
 }
 
 .benefits__item {
@@ -454,13 +449,18 @@ li {
 }
 
 .benefits__icon {
+  border: 1px var(--polank-color);
+  color: var(--polank-color);
   display: flex;
   border-radius: 4px;
-  background-color: var(--bcg-button-color);
   height: 120px;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.icon {
+  fill: currentColor;
 }
 
 .benefits {
@@ -489,10 +489,15 @@ li {
   justify-content: center;
   list-style: circle;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 1.1666;
+  font-size: 16px;
+  line-height: 1.1166;
   letter-spacing: 0.02em;
   color: var(--polank-color);
+}
+@media screen and (min-width: 1200px) {
+  .price-position {
+    font-size: 24px;
+  }
 }
 
 .clients-list {
