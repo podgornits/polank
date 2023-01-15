@@ -584,7 +584,7 @@ li {
   align-items: center;
   justify-content: center;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.7142;
   letter-spacing: 0.03em;
   color: var(--light-color);
@@ -601,10 +601,10 @@ li {
   align-items: center;
   justify-content: center;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.7142;
   letter-spacing: 0.03em;
-  color: var(--contacts-text-color);
+  color: var(--light-color);
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
@@ -618,18 +618,13 @@ li {
   }
 }
 
-.footer-contacts:hover,
-.footer-contacts:focus {
-  color: var(--accent-text-color);
-}
-
 .footer-list-name {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--light-color);
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.1428;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
@@ -696,9 +691,6 @@ li {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-link:hover, .footer-link:focus {
-  background-color: var(--accent-text-color);
 }
 
 .footer-icon {
