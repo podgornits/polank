@@ -38,6 +38,10 @@
 }
 .icon {
   fill: currentColor;
+  &:hover,
+    &:focus {
+      fill: var(--accent-text-color);
+    }
 }
 .benefits {
   width: 100%;

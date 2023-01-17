@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(255,247,216);
   
 }
 :root {
@@ -17,15 +18,15 @@ body {
   --icon-color: #afb1b8;
   --polank-color: rgba(97, 36, 0);
 }
-body {
-  background-image: url(../images/muka.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: auto;
-  @media screen and(min-width:1200px) {
+// body {
+//   background-image: url(../images/muka.jpg);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   margin: auto;
+//   @media screen and(min-width:1200px) {
     
-    max-width: 1600px;
+//     max-width: 1600px;
   
-}
-}
+// }
+// }
