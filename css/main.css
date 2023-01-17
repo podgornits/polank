@@ -539,9 +539,9 @@ li {
   align-items: center;
   justify-content: center;
   height: 92px;
-  border: 1px solid var(--icon-color);
+  border: 1px solid var(--polank-color);
   border-radius: 4px;
-  color: rgb(175, 177, 184);
+  color: var(--polank-color);
   transition-property: color, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -556,7 +556,7 @@ li {
 }
 
 .footer {
-  background-color: var(--accent-text-color);
+  border: 1px solid var(--polank-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -584,11 +584,11 @@ li {
 .address-text {
   align-items: center;
   justify-content: center;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.7142;
   letter-spacing: 0.03em;
-  color: var(--light-color);
+  color: var(--accent-text-color);
 }
 @media screen and (min-width: 1200px) {
   .address-text {
@@ -601,11 +601,11 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.7142;
   letter-spacing: 0.03em;
-  color: var(--light-color);
+  color: var(--accent-text-color);
   text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
@@ -623,7 +623,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--light-color);
+  color: var(--accent-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.1428;
@@ -687,7 +687,7 @@ li {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  color: var(--light-color);
+  color: var(--accent-text-color);
   background-color: rgba(255, 255, 255, 0.1);
   transition-property: background-color;
   transition-duration: 250ms;
@@ -1028,7 +1028,7 @@ body {
   --polank-color: rgba(97, 36, 0);
 }
 
-.fon {
+body {
   background-image: url(../images/muka.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1036,7 +1036,7 @@ body {
   margin: auto;
 }
 @media screen and (min-width: 1200px) {
-  .fon {
+  body {
     max-width: 1600px;
   }
 }
