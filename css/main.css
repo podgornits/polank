@@ -26,6 +26,7 @@ li {
 }
 
 .hero__button {
+  margin-top: 20px;
   border: 0;
   display: inline-block;
   margin: auto;
@@ -38,7 +39,7 @@ li {
   display: flex;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--accent-text-color);
+  color: var(--basic-text-color);
   cursor: pointer;
   border-radius: 4px;
   transition-property: background-color;
@@ -292,13 +293,6 @@ li {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-comment:-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.1666;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
 .modal-comment::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -384,6 +378,11 @@ li {
   gap: 30px;
 }
 
+.assorti:hover {
+  background-color: var(--accent-text-color);
+  color: var(--light-color);
+}
+
 .title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -392,7 +391,7 @@ li {
   line-height: 1.1785;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--accent-text-color);
+  color: var(--basic-text-color);
 }
 @media screen and (min-width: 1200px) {
   .title {
@@ -403,6 +402,9 @@ li {
     letter-spacing: 0.03em;
     margin-bottom: 50px;
   }
+}
+.titlefocus {
+  color: var(--light-color);
 }
 
 .visually-hidden {
@@ -450,7 +452,7 @@ li {
 
 .benefits__icon {
   border: 1px var(--polank-color);
-  color: var(--polank-color);
+  color: var(--accent-text-color);
   display: flex;
   border-radius: 4px;
   height: 120px;
@@ -502,6 +504,9 @@ li {
   .price-position {
     font-size: 24px;
   }
+}
+.price-position:hover {
+  color: var(--light-color);
 }
 
 .clients-list {
@@ -559,7 +564,6 @@ li {
 }
 
 .footer {
-  border: 1px solid var(--polank-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1013,7 +1017,6 @@ li {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: rgb(255, 247, 216);
 }
 
 :root {
@@ -1029,7 +1032,7 @@ body {
   --card-border: #eeee;
   --header-border: #ececec;
   --icon-color: #afb1b8;
-  --polank-color: rgba(97, 36, 0);
+  --polank-color: #212121;
 }
 
 @media screen and (min-width: 768px) {

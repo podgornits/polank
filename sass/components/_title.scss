@@ -7,14 +7,17 @@
  line-height: 1.1785;
  text-align: center;
  letter-spacing: 0.03em;
-    color: var(--accent-text-color);
-    @media screen and(min-width:1200px) {
+    color: var(--basic-text-color);
+    @media screen and (min-width:1200px) {
      font-weight: 700;
      font-size: 36px;
      line-height: 1.1666;
      text-align: center;
      letter-spacing: 0.03em;;
      margin-bottom: 50px;
+    }
+    &focus {
+      color: var(--light-color);
     }
   }
 

@@ -16,7 +16,12 @@
     display: flex;
     gap: 30px;
   }
-  .assorti {
+   .assorti {
+    &:hover
+     {
+      background-color: var(--accent-text-color);
+      color: var(--light-color);
+    }
   //   background-image: url(../images/muka.jpg);
   //   background-repeat: no-repeat;
   //   background-position: center;
@@ -26,5 +31,4 @@
       
   //     max-width: 1600px;
     
-  // }
-}
+   }
